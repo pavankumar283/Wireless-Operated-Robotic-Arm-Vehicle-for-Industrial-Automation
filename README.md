@@ -1,9 +1,6 @@
 # 🦾 Wireless Operated Robotic Arm Vehicle for Industrial Automation
 
-**Author:** Pawan Kumar Reddy
-**Institution:** Sri Siddhartha Institute of Technology
-**Competition:** *Winner – Cozmo Clench (Roboveda’23, Sreenidhi Institute of Science & Technology)*
-**Languages & Tools:** Arduino (C/C++), IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication
+**Languages & Tools:** Arduino (C/C++), IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication, Adrunio IDE, FlySky Transmitter and RF Receiver
 
 ---
 
@@ -11,7 +8,7 @@
 
 This project demonstrates a **Wireless Operated Robotic Arm Vehicle** built for **industrial automation** and **remote pick-and-place operations**. It integrates a **robotic arm** on a mobile base, controlled wirelessly using an **RF transmitter-receiver system (FS-iA6B / Avionic R7 2.4GHz)**.
 
-The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **dual power supply (12V + 9V)** to achieve accurate, smooth motion. It increases **object-handling efficiency by 30%** over manual operation in small industries.
+The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **dual power supply (12V + 9V)** to achieve accurate, smooth motion. It increases **object-handling efficiency by 40%** over manual operation in small industries.
 
 The robot performs the following:
 
@@ -100,42 +97,15 @@ int L_PWM_left = 11;
 
 * **Award:** 🥇 *Certificate of Excellence – First Place*
 * **Prize:** ₹9000 cash award
-* **Event:** *Samanvayi & Cozmo Clench – Pick and Place Robotics Challenge*
+* **Event:** *Samanvayi-Cozmo Clench – Pick and Place Robotics Challenge*
 * **Recognition:** For innovation, precise control, and technical excellence
-* **Judging Parameters:** Motion stability, mechanical design, and automation efficiency
+* **Judging Parameters:** Motion stability, mechanical design, Tasks sloving and automation efficiency
 
 📸 **Competition Highlights:**
 ![Competition Shots 1](./1734275377493.jpg)
 ![Competition Shots 2](./1734276429755.jpg)
 
 🎥 **Demo Video:** [Watch the Project in Action](./Cosmoclench%20vedio%201%20.mp4)
-
----
-
-## 📁 Repository Structure
-
-```
-Wireless-Robotic-Arm-Vehicle/
-│
-├── /Code/
-│   └── Robotic_Arm_Vehicle_Code.ino
-│
-├── /Documentation/
-│   ├── Circuit_Diagram.jpg
-│   ├── Project_Report.pdf
-│   └── README.md
-│
-├── /Media/
-│   ├── IMG_20231028_170724.jpg
-│   ├── IMG_20231118_213837.jpg
-│   ├── Cozmo_Clench_Event_1.jpg
-│   ├── Cozmo_Clench_Event_2.jpg
-│   └── Competition_Video.mp4
-│
-└── LICENSE
-```
-
-> **Tip:** Maintain consistent naming (e.g., `Robotic_Arm_Vehicle_Code.ino`) for cleaner version control.
 
 ---
 
@@ -158,26 +128,13 @@ Wireless-Robotic-Arm-Vehicle/
 
 ---
 
-## 👥 Contributors
-
-* **Pawan Kumar Reddy** – Electronics, Embedded Programming, and Circuit Design
-* **Team Cozmo Clench (SSIT Robotics Club)** – Mechanical Design, Fabrication, and Field Testing
-
----
-
-## 🪪 License
-
-This project is distributed under the **MIT License** — free to use, modify, and redistribute with credit.
-
----
-
 ## 💬 Contact
 
-📧 **Email:** [pavankumarreddy@email.com](mailto:pavankumarreddy@email.com)
-🔗 **LinkedIn:** [Pawan Kumar Reddy](#)
+📧 **Email:** [pavankumar.b.reddy@email.com](mailto:pavankumar.b.reddy@email.com)
+🔗 **LinkedIn:** [Pawan Kumar Reddy](https://www.linkedin.com/in/pavankumarreddy7/)
 🌐 **Portfolio:** *GitHub Repository Link*
 
 ---
 
 > *“Automation doesn’t replace effort — it amplifies precision, creativity, and impact.”*
-> — **Pawan Kumar Reddy**
+> — **Pavan Kumar Reddy**
