@@ -47,6 +47,15 @@ The robot performs the following key operations:
 
 ---
 
+---
+
+## 🔌 Robotic Arm Vehicle Photo
+
+![BOT Photo](C:\Users\bpava\OneDrive\Documents\College_Projects\1734276429755.jpg)
+
+> The circuit connects two IBT-2 motor driver modules to control the left and right wheels, with PWM signals from the Arduino. The receiver channels CH1 and CH2 manage forward/reverse and turning motions.
+
+---
 ## 💻 Arduino Code
 
 Full Arduino implementation is available in:
