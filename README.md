@@ -1,41 +1,37 @@
-# Wireless-Operated-Robotic-Arm-Vehicle-for-Industrial-Automation
-This system is very beneficial for places where there is a need to pick an object move it and place it to some other place safely. If the object is being picked by a human, there is a risk of damage to the object which is avoided by this system.
-
-
 # 🦾 Wireless Operated Robotic Arm Vehicle for Industrial Automation
 
 **Author:** Pawan Kumar Reddy
 **Institution:** Sri Siddhartha Institute of Technology
 **Competition:** *Winner – Cozmo Clench (Roboveda’23, Sreenidhi Institute of Science & Technology)*
-**Language & Tools:** Arduino (C/C++), IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication
+**Languages & Tools:** Arduino (C/C++), IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication
 
 ---
 
 ## 🧠 Project Overview
 
-This project presents a **Wireless Operated Robotic Arm Vehicle** designed for **industrial automation and remote pick-and-place applications**. The system integrates a **robotic arm** mounted on a mobile vehicle, controlled wirelessly via an **RF transmitter-receiver module (FS-iA6B/Avionic R7 2.4GHz)**.
+This project demonstrates a **Wireless Operated Robotic Arm Vehicle** built for **industrial automation** and **remote pick-and-place operations**. It integrates a **robotic arm** on a mobile base, controlled wirelessly using an **RF transmitter-receiver system (FS-iA6B / Avionic R7 2.4GHz)**.
 
-The prototype was developed with **Arduino UNO**, **IBT-2 dual motor drivers**, and a **12V DC power source**, demonstrating how automation can **increase handling efficiency by 30%** compared to manual labor in small-scale industries.
+The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **dual power supply (12V + 9V)** to achieve accurate, smooth motion. It increases **object-handling efficiency by 30%** over manual operation in small industries.
 
-The robot performs the following key operations:
+The robot performs the following:
 
-* Remote **movement** (forward, backward, left, right)
-* Controlled **arm lift, grip, and release**
-* Precision **object handling** across varied surfaces
+* Wireless **vehicle movement** (Forward, Reverse, Left, Right)
+* **Arm lift, grip, and release** via DC actuators
+* Reliable object transfer on uneven surfaces
 
 ---
 
 ## ⚙️ Hardware Components
 
-| Component                             | Description                                                  |
-| ------------------------------------- | ------------------------------------------------------------ |
-| **Microcontroller**                   | Arduino UNO (ATmega328P)                                     |
-| **Motor Drivers**                     | 2 × IBT-2 H-Bridge Dual Drivers                              |
-| **Receiver Module**                   | FS-iA6B / Avionic R7 2.4GHz                                  |
-| **Power Supply**                      | 12V Battery + 9V for logic power                             |
-| **Motors**                            | 4 DC geared motors for wheels + 1 DC arm actuator            |
-| **ESC (Electronic Speed Controller)** | 30A Brushless Drone ESC (optional for 5V regulation)         |
-| **Arm Mechanism**                     | Custom-built gripper with foam pads for safe object handling |
+| Component                             | Description                                             |
+| ------------------------------------- | ------------------------------------------------------- |
+| **Microcontroller**                   | Arduino UNO (ATmega328P)                                |
+| **Motor Drivers**                     | 2 × IBT-2 Dual H-Bridge Motor Driver Modules            |
+| **Receiver Module**                   | FS-iA6B / Avionic R7 2.4GHz RF Receiver                 |
+| **Power Supply**                      | 12V DC for drive motors, 9V battery for Arduino         |
+| **Motors**                            | 4 DC geared motors (locomotion) + 1 DC arm actuator     |
+| **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
+| **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
 
 ---
 
@@ -43,32 +39,30 @@ The robot performs the following key operations:
 
 ![Circuit Diagram](./Circuit%20Daigram.jpg)
 
-> The circuit connects two IBT-2 motor driver modules to control the left and right wheels, with PWM signals from the Arduino. The receiver channels CH1 and CH2 manage forward/reverse and turning motions.
+> The system uses two IBT-2 modules for left and right motor control. Each module receives PWM signals from Arduino pins based on RF receiver input (CH1 & CH2), translating joystick movements into direction and speed.
 
 ---
 
----
+## 🤖 Prototype Model
 
-## 🔌 Robotic Arm Vehicle Photo
+![Robotic Arm Vehicle](./1734276429755.jpg)
 
-![BOT Photo](C:\Users\bpava\OneDrive\Documents\College_Projects\1734276429755.jpg)
-
-> The circuit connects two IBT-2 motor driver modules to control the left and right wheels, with PWM signals from the Arduino. The receiver channels CH1 and CH2 manage forward/reverse and turning motions.
+> *Final working model demonstrating object pickup and obstacle handling during Roboveda’23.*
 
 ---
+
 ## 💻 Arduino Code
 
-Full Arduino implementation is available in:
-[`Robotic Arm Vehicle - Project Code.docx`](./Robotic%20Arm%20Vehicle%20-%20Project%20Code.docx)
+Full Arduino code: [`Robotic Arm Vehicle - Project Code.docx`](./Robotic%20Arm%20Vehicle%20-%20Project%20Code.docx)
 
-**Main Functions:**
+**Core Functions:**
 
-* Reads PWM signals from receiver channels (CH1, CH2)
-* Maps input to motor speed and direction (FWD, BACK, LEFT, RIGHT)
-* Drives both motor drivers synchronously for precise movement
-* Supports bidirectional motion and failsafe idle state
+* Reads PWM from receiver channels
+* Maps input range (960–1980 µs) to speed control
+* Drives IBT-2 motor modules for synchronized motion
+* Implements safety cutoffs for signal loss
 
-Key snippet:
+**Code Snippet Example:**
 
 ```cpp
 // Receiver signal pins
@@ -92,33 +86,33 @@ int L_PWM_left = 11;
 
 ## 🧩 Working Principle
 
-1. The transmitter sends control signals via RF (2.4 GHz).
-2. The receiver decodes these into PWM pulses fed to Arduino.
-3. The Arduino interprets pulse width (typically 1000–2000 µs) to determine direction and speed.
-4. Based on input range thresholds, PWM signals are sent to the motor drivers.
-5. The robotic arm performs lifting, gripping, and releasing actions precisely as commanded.
+1. The transmitter sends analog PWM signals via RF (2.4GHz).
+2. The receiver decodes these and passes them to Arduino input pins.
+3. Arduino reads pulse width to interpret joystick direction (forward/reverse/turn).
+4. PWM outputs control the IBT-2 modules for wheel and arm actuation.
+5. The robotic arm performs precise pick, lift, and place operations based on control input.
 
 ---
 
 ## 🏆 Achievements
 
-### **Cozmo Clench Competition (Roboveda’23 – Sreenidhi Institute of Science & Technology, Hyderabad)**
+### **Cozmo Clench – Roboveda’23 (Sreenidhi Institute of Science & Technology, Hyderabad)**
 
+* **Award:** 🥇 *Certificate of Excellence – First Place*
+* **Prize:** ₹9000 cash award
 * **Event:** *Samanvayi & Cozmo Clench – Pick and Place Robotics Challenge*
-* **Award:** *Certificate of Excellence – First Place Winner* 🥇
-* **Prize:** ₹9000 Cash
-* **Recognition:** For exceptional problem-solving, innovation, and system design
-* **Judged on:** Robotic precision, structural stability, and speed of operation
+* **Recognition:** For innovation, precise control, and technical excellence
+* **Judging Parameters:** Motion stability, mechanical design, and automation efficiency
 
-📸 **Event Highlights:**
-![Competition Moments](./1734275377493.jpg)
-![Team Photo](./1734276429755.jpg)
+📸 **Competition Highlights:**
+![Competition Shots 1](./1734275377493.jpg)
+![Competition Shots 2](./1734276429755.jpg)
 
-🎥 **Demo Video:** [Competition Performance](./Cosmoclench%20vedio%201%20.mp4)
+🎥 **Demo Video:** [Watch the Project in Action](./Cosmoclench%20vedio%201%20.mp4)
 
 ---
 
-## 📁 Recommended Repository Structure
+## 📁 Repository Structure
 
 ```
 Wireless-Robotic-Arm-Vehicle/
@@ -141,44 +135,49 @@ Wireless-Robotic-Arm-Vehicle/
 └── LICENSE
 ```
 
-> 🔧 **Tip:** Rename all files using snake_case or PascalCase for clean readability.
-> Example: `Robotic_Arm_Vehicle_Code.ino` instead of `Robotic Arm Vehicle - Project Code.docx`.
+> **Tip:** Maintain consistent naming (e.g., `Robotic_Arm_Vehicle_Code.ino`) for cleaner version control.
 
 ---
 
 ## 🚀 Key Features
 
-* RF-based wireless operation
-* Dual-axis motion control with differential drive
-* Efficient arm actuation for pick-and-place tasks
-* Lightweight and modular mechanical design
-* Cost-effective prototype for small industries
+* Wireless RF-based robot control
+* Dual-motor differential drive system
+* Smooth lift and grip mechanism
+* Lightweight and modular chassis
+* Suitable for low-cost industrial automation
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
-* Replace RF with **Bluetooth or Wi-Fi** for extended range
-* Add **ultrasonic sensors** for obstacle avoidance
-* Introduce **autonomous mode** using machine vision
-* Upgrade gripper for variable-sized object handling
+* Replace RF with **Wi-Fi / Bluetooth** for long-range control
+* Add **ultrasonic obstacle detection**
+* Implement **AI-based autonomous mode** using OpenCV
+* Upgrade to **servo-based gripper** for precision handling
+
+---
+
+## 👥 Contributors
+
+* **Pawan Kumar Reddy** – Electronics, Embedded Programming, and Circuit Design
+* **Team Cozmo Clench (SSIT Robotics Club)** – Mechanical Design, Fabrication, and Field Testing
 
 ---
 
 ## 🪪 License
 
-This project is licensed under the **MIT License** – feel free to use, modify, and distribute with attribution.
+This project is distributed under the **MIT License** — free to use, modify, and redistribute with credit.
 
 ---
 
 ## 💬 Contact
 
-For collaboration or inquiries:
-📧 **Email:** [[pavankumarreddy@email.com](mailto:pavankumarreddy@email.com)]
+📧 **Email:** [pavankumarreddy@email.com](mailto:pavankumarreddy@email.com)
 🔗 **LinkedIn:** [Pawan Kumar Reddy](#)
-🌐 **Portfolio:** [GitHub Repository Link Here]
+🌐 **Portfolio:** *GitHub Repository Link*
 
 ---
 
-> *“Automation doesn’t just replace effort — it amplifies precision, speed, and imagination.”*
-> — *Pawan Kumar Reddy*
+> *“Automation doesn’t replace effort — it amplifies precision, creativity, and impact.”*
+> — **Pawan Kumar Reddy**
