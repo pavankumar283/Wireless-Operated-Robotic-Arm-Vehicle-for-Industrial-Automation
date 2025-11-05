@@ -24,13 +24,14 @@ The robot performs the following:
 | ------------------------------------- | ------------------------------------------------------- |
 | **Microcontroller**                   | Arduino UNO (ATmega328P)                                |
 | **Motor Drivers**                     | 2 × IBT-2 Dual H-Bridge Motor Driver Modules            |
-| **Receiver Module**                   | FS-iA6B / Avionic R7 2.4GHz RF Receiver                 |
 | **Power Supply**                      | 11.1V 4200MAH Lipo Battery Pack                         |
 | **Motors**                            | 4 DC geared motors (locomotion) + 1 DC arm actuator     |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
 | **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
-| **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
+| ** Servo Motor**                      | 2 x TowerPro MG995 Metal Gear Servo Motor(180º Rotation)|
+| **Receiver Module**                   | FS-iA6B / Avionic R7 2.4GHz RF Receiver                 |
+| **FlySky Transmitter**                | FlySky FS-i6 2.4G 6CH PPM RC Transmitter                |
 ---
 
 ## 🔌 Circuit Diagram
