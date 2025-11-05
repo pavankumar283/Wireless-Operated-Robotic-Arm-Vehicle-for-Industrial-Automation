@@ -8,7 +8,7 @@
 
 This project demonstrates a **Wireless Operated Robotic Arm Vehicle** built for **industrial automation** and **remote pick-and-place operations**. It integrates a **robotic arm** on a mobile base, controlled wirelessly using an **RF transmitter-receiver system (Flysky FS-i6X 2.4GHz 6CH RC Transmitter With FS-iA6B 2.4GHz 6CH Receiver)**.
 
-The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **11.1V 4500mAh 3S1P 40A/50A Discharge Li-ion Drone Battery Pack** to achieve accurate, smooth motion. It increases **object-handling efficiency by 35%** over manual operation in small industries.
+The system uses **Arduino UNO**, **IBT-2 motor drivers**, **ESC (Electronic Speed Controller)**, **Servo Motor** and **11.1V 4500mAh 3S1P 40A/50A Discharge Li-ion Drone Battery Pack** to achieve accurate, smooth motion. It increases **object-handling efficiency by 35%** over manual operation in small industries.
 
 The robot performs the following:
 
@@ -26,7 +26,6 @@ The robot performs the following:
 | **Motor Drivers**                     | 2 × IBT-2 Dual H-Bridge Motor Driver Modules            |
 | **Power Supply**                      | 11.1V 4200MAH Lipo Battery Pack                         |
 | **Motors**                            | 4 DC geared motors (locomotion) + 300RPM Dc Motor       |
-| **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
 | **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
 | **Servo Motor**                       | 2 x TowerPro MG995 Metal Gear Servo Motor(180º Rotation)|
