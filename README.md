@@ -103,7 +103,7 @@ int L_PWM_left = 11;
 * **Judging Parameters:** Motion stability, mechanical design, Tasks sloving and automation efficiency
 
 📸 **Competition Highlights:**
-![Competition Shots 1](./1734275377493.jpg)
+![Competition Shots 1](Arm_RoboBot.jpg)
 ![Competition Shots 2](./1734276429755.jpg)
 
 🎥 **Demo Video:** [Watch the Project in Action](./Cosmoclench%20vedio%201%20.mp4)
