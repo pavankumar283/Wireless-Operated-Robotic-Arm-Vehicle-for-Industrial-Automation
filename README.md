@@ -49,14 +49,6 @@ The robot performs the following:
 
 ---
 
-## 🤖 Prototype Model
-
-![Robotic Arm Vehicle](./1734276429755.jpg)
-
-> *Final working model demonstrating object pickup and obstacle handling during Roboveda’23.*
-
----
-
 ## 💻 Arduino Code
 
 Full Arduino code: [`Robotic Arm Vehicle - Project Code.docx`](./Robotic%20Arm%20Vehicle%20-%20Project%20Code.docx)
