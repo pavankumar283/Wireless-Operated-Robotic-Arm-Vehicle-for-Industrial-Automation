@@ -18,6 +18,14 @@ The robot performs the following:
 
 ---
 
+
+## 🤖 Prototype Model
+
+![Robotic Arm Vehicle](./1734276429755.jpg)
+
+---
+
+> *Final working model demonstrating object pickup and obstacle handling during Roboveda’23.*
 ## ⚙️ Hardware Components
 
 | Component                             | Description                                             |
