@@ -71,7 +71,7 @@ The robot performs the following:
 
 📸 **Competition Highlights:**
 ![Competition Shots 1](Arm_RoboBot.jpg)
-![Competition Shots 1](Winners_1st Place.jpg)
+![Competition Shots 1](https://github.com/pavankumar283/Wireless-Operated-Robotic-Arm-Vehicle-for-Industrial-Automation/blob/main/Winners_1st%20Place.jpg)
 
 🎥 **Demo Video:** [Watch the Project in Action](Robotic_Arm_Vehicle.mp4)
 
