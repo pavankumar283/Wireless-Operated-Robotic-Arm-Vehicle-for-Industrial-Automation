@@ -72,6 +72,7 @@ The robot performs the following:
 📸 **Competition Highlights:**
 ![Competition Shots 1](Arm_RoboBot.jpg)
 ![Competition Shots 2](Winners_1st Place.jpg)
+![Competition Shots 1](Arm_RoboBot.jpg)
 
 🎥 **Demo Video:** [Watch the Project in Action](Robotic_Arm_Vehicle.mp4)
 
@@ -107,7 +108,7 @@ The robot performs the following:
 
 ## 💬 Contact
 
-📧 **Email:** [pavankumar.b.reddy@email.com](mailto:pavankumar.b.reddy@email.com)
+📧 **Gmail:** [pavankumar.b.reddy@gmail.com](mailto:pavankumar.b.reddy@gmail.com)
 🔗 **LinkedIn:** [Pavan Kumar Reddy](https://www.linkedin.com/in/pavankumarreddy7/)
 
 ---
