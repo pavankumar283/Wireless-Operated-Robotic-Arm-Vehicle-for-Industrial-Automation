@@ -106,7 +106,7 @@ int L_PWM_left = 11;
 ![Competition Shots 1](Arm_RoboBot.jpg)
 ![Competition Shots 2](./1734276429755.jpg)
 
-🎥 **Demo Video:** [Watch the Project in Action](./Cosmoclench%20vedio%201%20.mp4)
+🎥 **Demo Video:** [Watch the Project in Action](Robotic_Arm_Vehicle.mp4)
 
 ---
 
@@ -116,7 +116,7 @@ int L_PWM_left = 11;
 | ------------------------- | ----------------------------------------------------------- |
 | **Forward / Reverse**     | PWM mapped from CH1 & CH2 joystick inputs                   |
 | **Left / Right Turn**     | Differential speed control between left/right IBT-2 modules |
-| **Lift / Grip / Release** | Controlled by DC actuator for arm movement                  |
+| **Lift / Grip / Release** | Controlled by Servo Motors and Dc motors with gears for arm movement|
 | **Failsafe Idle**         | Automatic stop when receiver signal is lost                 |
 
 ---
