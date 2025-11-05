@@ -25,7 +25,7 @@ The robot performs the following:
 
 ---
 
-> *Final working model demonstrating object pickup and obstacle handling during Roboveda’23.*
+> *Final working model demonstrating object pickup and obstacle handling during Roboveda’23 Robotics Competition.*
 ## ⚙️ Hardware Components
 
 | Component                             | Description                                             |
