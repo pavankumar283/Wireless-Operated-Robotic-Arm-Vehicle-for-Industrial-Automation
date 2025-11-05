@@ -30,8 +30,8 @@ The robot performs the following:
 | **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
 | **Servo Motor**                       | 2 x TowerPro MG995 Metal Gear Servo Motor(180º Rotation)|
-| **Receiver Module**                   | FS-iA6B 2.4GHz 6CH RF Receiver                          |
-| **FlySky Transmitter**                | FlySky FS-i6 2.4G 6CH  RC Transmitter                   |
+| **Receiver Module**                   | FS-iA6B 2.4GHz  6 Channels RF Receiver                  |
+| **FlySky Transmitter**                | FlySky FS-i6 2.4GHz 6CH  RC Transmitter                 |
 ---
 
 ## 🔌 Circuit Diagram
