@@ -1,6 +1,6 @@
 # 🦾 Wireless Operated Robotic Arm Vehicle for Industrial Automation
 
-**Languages & Tools:** Arduino (C/C++), IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication, Adrunio IDE, FlySky Transmitter and RF Receiver
+**Languages & Tools:** Arduino (C/C++) programming , IBT-2 Motor Driver, 8051 Microcontroller Concept, RF Communication, Adrunio IDE, FlySky Transmitter and RF Receiver
 
 ---
 
