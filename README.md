@@ -25,7 +25,7 @@ The robot performs the following:
 | **Microcontroller**                   | Arduino UNO (ATmega328P)                                |
 | **Motor Drivers**                     | 2 × IBT-2 Dual H-Bridge Motor Driver Modules            |
 | **Power Supply**                      | 11.1V 4200MAH Lipo Battery Pack                         |
-| **Motors**                            | 4 DC geared motors (locomotion) + 1 DC arm actuator     |
+| **Motors**                            | 4 DC geared motors (locomotion) + 300RPM Dc Motor       |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
 | **Gripper**                           | Foam-padded dual-jaw design for soft object handling    |
 | **ESC (Electronic Speed Controller)** | 30A Drone Brushless ESC (used for 5V supply regulation) |
