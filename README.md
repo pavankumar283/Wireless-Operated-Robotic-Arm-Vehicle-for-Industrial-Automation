@@ -21,7 +21,7 @@ The robot performs the following:
 
 ## 🤖 Prototype Model
 
-![Robotic Arm Vehicle](./1734276429755.jpg)
+![Robotic Arm Vehicle](Arm_RoboBot.jpg)
 
 ---
 
