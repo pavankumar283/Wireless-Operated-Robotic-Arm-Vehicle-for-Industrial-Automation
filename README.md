@@ -71,7 +71,7 @@ The robot performs the following:
 
 📸 **Competition Highlights:**
 ![Competition Shots 1](Arm_RoboBot.jpg)
-![Competition Shots 2](./1734276429755.jpg)
+![Competition Shots 2](Winners_1st Place.jpg)
 
 🎥 **Demo Video:** [Watch the Project in Action](Robotic_Arm_Vehicle.mp4)
 
