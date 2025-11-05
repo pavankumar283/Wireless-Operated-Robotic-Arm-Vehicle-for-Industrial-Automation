@@ -263,6 +263,26 @@ int L_PWM_left = 11;
 
 ---
 
+
+## 🏆 Achievements
+
+### **Cozmo Clench – Roboveda’23 (Sreenidhi Institute of Science & Technology, Hyderabad)**
+
+* **Award:** 🥇 *Certificate of Excellence – First Place*
+* **Prize:** ₹9000 cash award
+* **Event:** *Samanvayi-Cozmo Clench – Pick and Place Robotics Challenge*
+* **Recognition:** For innovation, precise control, and technical excellence
+* **Judging Parameters:** Motion stability, mechanical design, Tasks sloving and automation efficiency
+
+📸 **Competition Highlights:**
+![Competition Shots 1](./1734275377493.jpg)
+![Competition Shots 2](./1734276429755.jpg)
+
+🎥 **Demo Video:** [Watch the Project in Action](./Cosmoclench%20vedio%201%20.mp4)
+
+---
+
+
 ## 📁 Repository Structure
 
 ```
