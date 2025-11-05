@@ -13,7 +13,7 @@ The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **dual power suppl
 The robot performs the following:
 
 * Wireless **vehicle movement** (Forward, Reverse, Left, Right)
-* **Arm lift, grip, and release** via DC actuators
+* **Arm lift, grip, and release** via  servo-based gripper for precision handling
 * Reliable object transfer on uneven surfaces
 
 ---
