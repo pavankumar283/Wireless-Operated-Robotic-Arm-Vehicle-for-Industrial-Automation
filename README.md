@@ -49,39 +49,6 @@ The robot performs the following:
 
 ---
 
-## 💻 Arduino Code
-
-Full Arduino code: [`Robotic Arm Vehicle - Project Code.docx`](./Robotic%20Arm%20Vehicle%20-%20Project%20Code.docx)
-
-**Core Functions:**
-
-* Reads PWM from receiver channels
-* Maps input range (960–1980 µs) to speed control
-* Drives IBT-2 motor modules for synchronized motion
-* Implements safety cutoffs for signal loss
-
-**Code Snippet Example:**
-
-```cpp
-// Receiver signal pins
-double ch1_pin = 3;
-double ch2_pin = 5;
-
-// Right motor driver
-int R_EN_right = 2; 
-int L_EN_right = 4;
-int R_PWM_right = 6;
-int L_PWM_right = 9;
-
-// Left motor driver
-int R_EN_left = 7; 
-int L_EN_left = 8;
-int R_PWM_left = 10;
-int L_PWM_left = 11;
-```
-
----
-
 ## 🧩 Working Principle
 
 1. The transmitter sends analog PWM signals via RF (2.4GHz).
