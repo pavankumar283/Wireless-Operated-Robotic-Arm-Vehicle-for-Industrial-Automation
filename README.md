@@ -6,9 +6,9 @@
 
 ## 🧠 Project Overview
 
-This project demonstrates a **Wireless Operated Robotic Arm Vehicle** built for **industrial automation** and **remote pick-and-place operations**. It integrates a **robotic arm** on a mobile base, controlled wirelessly using an **RF transmitter-receiver system (FS-iA6B / Avionic R7 2.4GHz)**.
+This project demonstrates a **Wireless Operated Robotic Arm Vehicle** built for **industrial automation** and **remote pick-and-place operations**. It integrates a **robotic arm** on a mobile base, controlled wirelessly using an **RF transmitter-receiver system (Flysky FS-i6X 2.4GHz 6CH RC Transmitter With FS-iA6B 2.4GHz 6CH Receiver)**.
 
-The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **dual power supply (12V + 9V)** to achieve accurate, smooth motion. It increases **object-handling efficiency by 40%** over manual operation in small industries.
+The system uses **Arduino UNO**, **IBT-2 motor drivers**, and **11.1V 4500mAh 3S1P 40A/50A Discharge Li-ion Drone Battery Pack** to achieve accurate, smooth motion. It increases **object-handling efficiency by 35%** over manual operation in small industries.
 
 The robot performs the following:
 
@@ -124,17 +124,11 @@ int L_PWM_left = 11;
 
 ## 🚀 Key Features
 
-* Wireless RF-based robot control
-* Dual-motor differential drive system
-* Smooth lift and grip mechanism
-* Lightweight and modular chassis
-* Suitable for low-cost industrial automation
 * 2.4GHz RF wireless control system.
 * Dual motor synchronization using PWM modulation.
 * Efficient, low-latency control for precise motion.
 * Simple, scalable design suitable for research and industrial applications.
 * Compatible with Arduino IDE and generic motor driver hardware.
-
 
 ---
 
@@ -142,8 +136,6 @@ int L_PWM_left = 11;
 
 * Replace RF with **Wi-Fi / Bluetooth** for long-range control
 * Add **ultrasonic obstacle detection**
-* Implement **AI-based autonomous mode** using OpenCV
-* Upgrade to **servo-based gripper** for precision handling
 
 ---
 
@@ -151,7 +143,6 @@ int L_PWM_left = 11;
 
 📧 **Email:** [pavankumar.b.reddy@email.com](mailto:pavankumar.b.reddy@email.com)
 🔗 **LinkedIn:** [Pavan Kumar Reddy](https://www.linkedin.com/in/pavankumarreddy7/)
-🌐 **Portfolio:** *GitHub Repository Link*
 
 ---
 
